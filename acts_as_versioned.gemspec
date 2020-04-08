@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.name              = 'acts_as_versioned'
   s.version           = '0.6.0'
   s.date              = '2012-03-28'
-  s.rubyforge_project = 'acts_as_versioned'
+  s.rubyforge_project = 'acts_as_versioned' if s.respond_to? :rubyforge_project=
 
   ## Make sure your summary is short. The description may be as long
   ## as you like.
